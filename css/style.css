@@ -1,0 +1,180 @@
+
+.logo{
+    height: 80px;
+}
+.navi{ font-size: 20px; font-weight: bold;  }
+.navelement{ 
+    transition: 0.3s;
+    color:black;
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.navelement:active{
+    color: bisque;
+}
+ul{
+    display: flex;
+    align-items: center;
+    
+    justify-content:end ;
+}
+.container-fluid{
+    align-content: center;
+    border-radius: 10px;
+    background-color: #B59E7D;
+}
+
+
+.homt {
+    display: flex;
+    flex-direction: row; /* Keeps text on left, image on right */
+    justify-content: center;
+    align-items: center;
+    gap: 50px; /* Adds space between the text block and the image */
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column; /* Stacks text on top of buttons */
+    align-items: flex-start; /* Aligns everything to the left */
+}
+
+.links-content {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Adds space between button and icons */
+    margin-top: 20px; /* Pushes the buttons down away from the text */
+}
+
+.resume-btn {
+    background-color: #B59E7D;
+    color: black;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.resume-btn:hover{
+    color: bisque;
+    background-color: black;
+}
+
+.highlight {
+    color: brown;
+}
+
+
+
+
+
+svg{
+    color: black;
+}
+.about{
+    text-align: center;
+    margin-right: 140px;
+    margin-left: 140px;
+}
+.skill{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.icons{
+
+    height: 70px;
+
+    width: 70px;
+
+}
+#scard{
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 20px;
+
+    height: 160px;
+
+    width: 160px;
+
+    background-color: #ebe1d3;
+
+    border-radius: 15px;
+
+}
+#scard:hover{
+    color: black;
+    background-color:#CEC1A8;
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
+
+}
+.TechStacks{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+#tcard{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    max-width: 360px;
+   min-height: 140px;
+    background-color: #ebe1d3; 
+     border-radius: 20px;
+     box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
+}
+#tcard:hover{
+        color: black;
+    background-color:#CEC1A8;
+    transform: translateY(-10px)
+}
+.contact{
+    text-align: center;
+    background-color: #B59E7D;
+    color: black;
+}
+.cont{
+    margin-right: 40px;
+    margin-left: 40px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #B59E7D;
+    color: black;
+    font-weight: bold;
+    height: 40px;
+    width: 130px;
+    border: 0;
+}
+.cont:hover{
+    color: #B59E7D;
+    background-color: black;
+}
+
+body{
+    background-color: #F1EADA;
+    user-select: none;
+}
+
+h3{
+    text-align: center;
+}
+@media (max-width: 600px) {
+    nav {
+        gap: 10px; 
+    }
+    nav a {
+        font-size: 14px; /* Smaller text for small screens */
+    }
+}
+/*HOVER=#CEC1A8*/
